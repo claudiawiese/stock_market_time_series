@@ -14,15 +14,16 @@ Historical stock market data was obtained from Yahoo Finance
 If you want to compute yourself our results you have to clone the github repository to your local machine and run the corresponding jupyter notebooks in the folder modelling.
 
 ### Project Structure 
-project_root/
-├── db/
-    ├── google_stock_data.csv
-    ├── log_stock_data.csv
-│   └── preprocessed_stock_data.csv
-├── modelling/
-│   ├── ARIMA_modelling.ipynb
-│   ├── LSTM_modelling.ipynb
-│   └── SARIMA_modelling.ipynb
-└── preprocessing/
-    └── preprocessing.ipynb
+
+    project_root/
+    ├── db/
+    │   ├── google_stock_data.csv
+    │    ├── log_stock_data.csv
+    │   └── preprocessed_stock_data.csv
+    ├── modelling/
+    │   ├── ARIMA_modelling.ipynb
+    │   ├── LSTM_modelling.ipynb
+    │   └── SARIMA_modelling.ipynb
+    └── preprocessing/
+        └── preprocessing.ipynb
    
